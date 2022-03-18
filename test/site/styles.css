@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+header, footer, .sideBlock, .listBlock {
+    border-style: inset;
+    border-color: aqua;
+    width: 100%;
+}
+
+header, footer {
+    height: 50px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.sideBlock {
+        width: 250px;
+}
